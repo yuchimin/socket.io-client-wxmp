@@ -413,7 +413,7 @@ describe("connection", function () {
 
   it("should emit a connect_error event when reaching a Socket.IO server in v2.x", (done) => {
     const socket = io({
-      autoConnect: false
+      autoConnect: false,
     });
 
     socket.on("connect_error", () => {
@@ -423,7 +423,7 @@ describe("connection", function () {
     // @ts-ignore
     socket.onpacket({
       nsp: "/",
-      type: 0
+      type: 0,
     });
   });
 
