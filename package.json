@@ -1,7 +1,8 @@
 {
-  "name": "socket.io-client",
+  "name": "socket.io-client-wxmp",
   "description": "socket.io-client for WeChat mini program",
   "version": "3.0.4",
+  "homepage": "https://github.com/yuchimin/socket.io-client-wxmp",
   "keywords": [
     "realtime",
     "framework",
