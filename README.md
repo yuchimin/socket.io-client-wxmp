@@ -5,9 +5,10 @@
 
 使用 [engine.io-client-wxmp](https://github.com/yuchimin/socket.io-client-wxmp) 作为底层传输协议来支持微信小程序的 [WebSocket API](https://developers.weixin.qq.com/miniprogram/dev/api/network/websocket/wx.sendSocketMessage.html).
 
-- 大小仅为 12 KB (gziped)，完整保留 [socket.io-client](https://github.com/socketio/socket.io-client) 的 WebSocket 版本的功能
+- 从当前最新版[socket.io-client v3.0.4](https://github.com/socketio/socket.io-client) fork 修改而来
+- 完整保留 `socket.io-client` 的 WebSocket 版本的功能
 - 支持二进制格式传输（Binary/ArrayBuffer）、保持长连接（小程序默认约 60s 自动关闭连接）
-- 仅修改了引用的 `engine.io-client` 的地址，业务代码无任何修改，所以可以跟官方版本保持同步更新
+- 仅将引用依赖包 `engine.io-client` 替换为 [engine.io-client-wxmp](https://github.com/yuchimin/socket.io-client-wxmp)，业务代码无任何修改，所以可以跟官方版本保持同步更新
 
 ## 使用方法
 

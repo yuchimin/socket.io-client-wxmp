@@ -1,4 +1,4 @@
-import * as eio from "engine.io-client";
+import * as eio from "engine.io-client-wxmp";
 import { Socket, SocketOptions } from "./socket";
 import Emitter = require("component-emitter");
 import * as parser from "socket.io-parser";

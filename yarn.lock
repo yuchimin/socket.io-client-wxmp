@@ -3194,10 +3194,10 @@ end-of-stream@^1.0.0, end-of-stream@^1.1.0:
   dependencies:
     once "^1.4.0"
 
-"engine.io-client@git@github.com:yuchimin/engine.io-client-wxmp.git":
+engine.io-client-wxmp@~4.0.5:
   version "4.0.5"
-  resolved "https://registry.npm.taobao.org/engine.io-client/download/engine.io-client-4.0.5.tgz?cache=0&sync_timestamp=1607333967880&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fengine.io-client%2Fdownload%2Fengine.io-client-4.0.5.tgz#e12b05a11a7a3cccec6d69f9af8435146e3d507e"
-  integrity sha1-4SsFoRp6PMzsbWn5r4Q1FG49UH4=
+  resolved "https://registry.npm.taobao.org/engine.io-client-wxmp/download/engine.io-client-wxmp-4.0.5.tgz#54836f2ed033a035d0b58c553f2c0dd5ba3d6931"
+  integrity sha1-VINvLtAzoDXQtYxVPywN1bo9aTE=
   dependencies:
     base64-arraybuffer "0.1.4"
     component-emitter "~1.3.0"
