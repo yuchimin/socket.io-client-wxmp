@@ -102,7 +102,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/socketio/socket.io-client.git"
+    "url": "https://github.com/yuchimin/socket.io-client-wxmp"
   },
   "license": "MIT",
   "engines": {
