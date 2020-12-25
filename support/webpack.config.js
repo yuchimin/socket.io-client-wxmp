@@ -1,7 +1,7 @@
 const { BannerPlugin } = require("webpack");
 const version = require("../package.json").version;
 
-const banner = `Socket.IO v${version}
+const banner = `Socket.IO-WXMP v${version}
 (c) 2014-${new Date().getFullYear()} Guillermo Rauch
 Released under the MIT License.`;
 
@@ -25,7 +25,7 @@ module.exports = {
     })()`,
   },
   mode: "development",
-  devtool: "source-map",
+  devtool: "inline-source-map",
   node: {
     Buffer: false,
   },

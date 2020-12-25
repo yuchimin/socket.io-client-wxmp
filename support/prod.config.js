@@ -7,6 +7,7 @@ module.exports = {
     filename: "socket.io.min.js",
   },
   mode: "production",
+  devtool: "inline-source-map",
   module: {
     rules: [
       ...config.module.rules,
